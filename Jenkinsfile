@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/username/repository.git'
+        git branch: 'main', url: 'https://github.com/faye2003/php_jenkins.git'
     }
   }
   stage('Install Dependencies') {
